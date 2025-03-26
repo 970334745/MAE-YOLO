@@ -2,10 +2,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
-# BILIBILI UP 魔傀面具
-# 推理参数官方详解链接：https://docs.ultralytics.com/modes/predict/#inference-sources:~:text=of%20Results%20objects-,Inference%20Arguments,-model.predict()
 
-# 预测框粗细和颜色修改问题可看<使用说明.md>下方的<YOLOV8源码常见疑问解答小课堂>第六点
 
 if __name__ == '__main__':
     model = YOLO('runs/train/exp/weights/best.pt') # select your model.pt path
